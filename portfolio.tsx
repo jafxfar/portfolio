@@ -127,7 +127,7 @@ export default function Portfolio() {
               className="rounded-full mx-auto mb-6 border-4 border-primary/10"
             />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+          <h1 className="text-3xl md:text-6xl font-bold mb-6 text-black">
            JAFAR JAMSHEDI
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">Front-end Developer</p>
