@@ -59,6 +59,15 @@ export default function Portfolio() {
       github: null, 
       live: "https://shamcrm.com/",
     },
+     {
+      title: "exode.biz",
+      description:
+        "A platform for launching online schools and courses. Developed using React.js, TypeScript, MobX, and GraphQL.",
+      image: `${basePath}/exode.svg`,
+      technologies: ["React.js","TypeScript", "MobX", "GraphQL"],
+      github: null, 
+      live: "https://exode.biz/",
+    },
   ]
 
   const skills = [
@@ -240,7 +249,7 @@ export default function Portfolio() {
               >
                 <Card className="group hover:shadow-lg transition-all duration-300">
                   <CardHeader className="p-0">
-                    <div className="relative overflow-hidden rounded-t-lg bg-neutral-200 dark:bg-neutral-800 p-6 flex items-center justify-center" style={{ minHeight: 200 }}>
+                    <div className="relative overflow-hidden rounded-t-lg bg-neutral-200 dark:bg-neutral-800 p-6 flex items-center justify-center" style={{ minHeight: 220 }}>
                       <Image
                         src={project.image}
                         alt={project.title}
