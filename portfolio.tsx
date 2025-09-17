@@ -62,7 +62,7 @@ export default function Portfolio() {
      {
       title: "exode.biz",
       description:
-        "A platform for launching online schools and courses. Developed using React.js, TypeScript, MobX, and GraphQL.",
+        "A platform for launching online schools and courses, also serving as a CMS where admins can manage navigation, customize the school theme, and change the color palette.",
       image: `${basePath}/exode.svg`,
       technologies: ["React.js","TypeScript", "MobX", "GraphQL"],
       github: null, 
@@ -247,7 +247,7 @@ export default function Portfolio() {
                 viewport={{ once: true, amount: 0.2 }}
                 variants={cardVariants}
               >
-                <Card className="group hover:shadow-lg transition-all duration-300">
+                <Card className="group hover:shadow-lg transition-all min-h-[470px] duration-300">
                   <CardHeader className="p-0">
                     <div className="relative overflow-hidden rounded-t-lg bg-neutral-200 dark:bg-neutral-800 p-6 flex items-center justify-center" style={{ minHeight: 220 }}>
                       <Image
